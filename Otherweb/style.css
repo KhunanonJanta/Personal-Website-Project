@@ -1,0 +1,274 @@
+body,html {
+    width: 100%;
+    height: 100%;
+  }
+  
+  h1,
+  h2,
+  h3 {
+     font-family: "Tangerine", serif;
+     font-size: 48px;
+     text-shadow: 4px 4px 4px #aaa;
+     color: white;
+  }
+  
+  
+  /* Navigation */
+  
+  .navbar {
+    font-size: 16px !important;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+    margin-bottom: 0;
+    border-bottom: 1px outset rgba(192, 192, 192, 0.5);
+    background: rgb(32, 165, 242);
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  .navbar ul.navbar-nav li a {
+    color: #FFF;
+  }
+  
+  .navbar ul.navbar-nav li a:hover,
+  .navbar ul.navbar-nav li a:focus {
+    background: rgb(214, 21, 220);
+    color: white; /* Color of text */
+  }
+  
+  .navbar .navbar-header .navbar-brand {
+    color: white;
+  }
+  
+  .navbar .navbar-header .navbar-brand:hover,
+  .navbar .navbar-header .navbar-brand:focus {
+    background-color: rgb(214, 21, 220); 
+    color: white;
+  }
+  
+  /* Welcome Page Image */
+  
+  .bg-1 {
+    /*padding-top: ;*/
+    padding-bottom: 50px;
+    text-align: center;
+    background: url("https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c9476459aede4e37dbbf9a2153d6377c&auto=format&fit=crop&w=1372&q=80")no-repeat center center fixed;
+    background-size: cover;
+    height: 600px;
+  }
+  
+  /* Home */
+  
+  .intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 10%;
+  }
+  
+  
+  /* Welcome Page Big heading */
+  
+  .intro-message > h1 {
+    margin-top: -50px;
+    text-shadow: 2px 1px 2px #000;
+    font-size: 5em;
+    color: rgb(254, 254, 254);
+  }
+  
+  
+  /*small header*/
+  
+  .intro-message > h3 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    color: rgb(254, 254, 254);
+  }
+  
+  
+  /* Divider between h1 and h3 */
+  
+  .intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  /* Divider */
+  
+  hr.intro-divider {
+    border: 1px outset rgba(255, 255, 255, 0.2);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    width: 100%;
+  }
+  
+  
+  @media(max-width:767px) {
+    .intro-message {
+      padding-bottom: 15%;
+    }
+  
+    .intro-message > h1 {
+      font-size: 3em;
+    }
+  
+    ul.intro-social-buttons > li {
+      display: block;
+      margin-bottom: 20px;
+      padding: 0;
+    }
+  
+    ul.intro-social-buttons > li:last-child {
+      margin-bottom: 0;
+    }
+  
+    .intro-divider {
+      width: 100%;
+    }
+  }
+  
+  
+  /* social buttons */
+  
+  .btn {
+    display: inline-block;
+    color: #000;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    background: #C0C0C0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 20);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+    transition: 0.2s;
+  }
+  
+  .btn:hover {
+    color: #fff;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.9);
+    transform: scale(1.1);
+    transition: 0.2s;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 20);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+  }
+  
+  
+  /* About Section */
+  
+  .img {
+     padding: 50px 0;
+     color: black;
+     background: url("https://spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2016/08/Untitled-5-1024x576.png")no-repeat center center fixed;
+     background-size: cover;
+     height: 755px;
+  }
+  
+  .img {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
+  
+  .lead {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .display-container {
+     position: relative;
+  }
+  
+  .padding-16 {
+     padding-top: 16px!important;
+     padding-bottom: 16px!important;
+  }
+  
+  .padding { 
+     padding-top: 8px!important;
+     padding-bottom: 8px!important;
+     padding-right: 16px!important;
+     padding-left: 16px!important;
+  }
+  
+  .row-padding { 
+     padding-right: 8px;
+     padding-left: 8px;
+  }
+  
+  .margin-bottom {
+     margin-bottom: 16px!important;
+  }
+  
+  .black { 
+    background-color: #000!important;
+    color: white;
+  }
+  
+  .display-topmiddle {
+    position: absolute;
+    left: 26%;     
+    top: 0;
+    transform: translate(-26%,0%);
+    -ms-transform: translate(-26%,0%)
+  }
+  
+  /* Portfolio Section */
+  
+  .section {
+    color: black;
+    background: url("https://68.media.tumblr.com/d3fd545cd977a174beef12c1106880bf/tumblr_nt505iKkul1ud7rr3o1_1280.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .section {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  
+  
+  /* APJ Img*/
+  .img-1 {
+    width: 370px;
+  }
+  
+  .img-2 {
+    width: 370px;
+  }
+  
+  .img-3 {
+    width: 370px;
+  }
+  
+  
+  /* Contact Section */
+  
+  .img-c {
+    background: url("https://slashsquare.org/wp-content/uploads/2011/12/Contact-Slashsquare.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .contacts {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  
+  /* Footer Section*/
+  
+  footer {
+    padding: 30px 0;
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: white;
+  }
+  
+  footer .glyphicon {
+    font-size: 20px;
+    /*margin-bottom: 20px; */
+    color: #f4511e;
+  }
+  
+  p.copyright {
+    margin: 15px 0 0;
+    color: black;
+  }
