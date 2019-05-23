@@ -22,19 +22,10 @@ body {
   font-size: 30px;
 }
 
-.row > .column {
-  padding: 0 8px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .column {
   float: left;
-  width: 25%;
+  width: 14%;
 } 
 
 /* The Modal (background) */
@@ -80,6 +71,8 @@ body {
 
 .mySlides {
   display: none;
+  background-color: #343434;
+  text-align:center;
 }
 
 .cursor {
@@ -134,11 +127,18 @@ body {
   position: absolute;
   top: 0;
 }
-
+/*
 img {
   margin-bottom: -4px;
+}*/
+#img_container{
+  border: 1px solid grey;
+  height: 250px;
 }
-
+#img_container img{
+  margin: auto auto;
+  display: block;
+}
 .caption-container {
   text-align: center;
   background-color: black;
@@ -161,4 +161,24 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 10px 12px 0 rgba(150, 40, 27, 0.5), 0 6px 20px 0 rgba(150, 40, 27, 0.5);
+}
+
+/* test grid */
+.item1 {
+  grid-area: myArea;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'myArea myArea . . .';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
