@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,7 +15,8 @@
                 <h1> Jin (じん)</h1>
                 <h3>producer song series Kagerou Project. </h3>
                 <hr class="intro-divider">
-                <iframe width="320" height="160" src="https://ext.nicovideo.jp/thumb_user/15872264" scrolling="no" style="border:solid 1px #CCC;" frameborder="0"></iframe><br />                <a href="https://www.facebook.com/IAProject" target="_blank" class="fa fa-facebook"></a>
+                <iframe width="320" height="160" src="https://ext.nicovideo.jp/thumb_user/15872264" scrolling="no" style="border:solid 1px #CCC;" frameborder="0"></iframe><br />                
+                <a href="https://www.facebook.com/IAProject" target="_blank" class="fa fa-facebook"></a>
                 <a href="https://twitter.com/jin_jin_suruyo" target="_blank" class="fa fa-twitter"></a>
                 <a href="https://www.youtube.com/channel/UCu33JdVED-0vqaNyw_bCTKg" target="_blank" class="fa fa-youtube"></a>
             </div>
@@ -114,48 +116,86 @@
                         <div class="item1">
                             <iframe width="916" height="515" src="https://www.youtube.com/embed/hN_UJHwDFk0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <div class="item2">
-                            <h4>Kanji</h4>
-                            <p>「夢の消えた毎日を繰り返していたって </p>
-                            <p>意味などないよ。」と</p>   
-                            <p>素晴らしいこと言うね </p>    
-                            <p>君もそう、「非現実を愛してます。」</p>    
-                            <p>なんて指では言うけど </p>    
-                            <p>口では何も言えないのにね</p>   <br /> 
-
-                            顔も声もない人と繋がってる「なにか」を感じてる 
-                            それはきっと相思相愛じゃないけど 
-                            そうやって今日もまた一日が終わるけど
-                            君は生きたようなフリをして　して　そして眠る
-                            
-                            「ああ、つまらないな。」と目を背けてみても 
-                            閉じることは出来ないくせに   
-                            ねぇ、そんなことを認めもしない割りに
-                            今日もまた厭らしい顔で画面の奥の
-                            私を見てるよ？
+                        <div class="item2"  onload="readFile()">
+                            <h4>Lyric Kanji/Romaji</h4>
+                            「夢の消えた毎日を繰り返していたって 
+                            <br />“Yume no kieta mainichi o kurikaeshiteitatte
+                            <br />意味などないよ。」と
+                            <br />imi nado nai yo.” to
+                            <br />素晴らしいこと言うね 
+                            <br />Subarashii koto iu ne
+                            <br />君もそう、「非現実を愛してます。」
+                            <br />Kimi mo sou, “higenjitsu o aishitemasu.”
+                            <br />なんて指では言うけど 
+                            <br />nante yubi de wa iu kedo
+                            <br />口では何も言えないのにね
+                            <br />Kuchi de wa nani mo ienai no ni ne
+                            <br />
+                            <br />顔も声もない人と繋がってる「なにか」を感じてる 
+                            <br />Kao mo koe mo nai hito to tsunagatteru “nanika” o kanjiteru
+                            <br />それはきっと相思相愛じゃないけど 
+                            <br />Sore wa kitto soushisouai ja nai kedo
+                            <br /> そうやって今日もまた一日が終わるけど
+                            <br />Sou yatte kyou mo mata ichinichi ga owaru kedo 
+                            <br />君は生きたようなフリをして　して　そして眠る
+                            <br />Kimi wa ikita you na furi o shite　shite　soshite nemuru
+                            <br />
+                            <br />「ああ、つまらないな。」と目を背けてみても 
+                            <br />“Aa, tsumaranai na.” to me o somukete mite mo
+                            <br />閉じることは出来ないくせに 
+                            <br />Tojiru koto wa dekinai kuse ni
+                            <br />ねぇ、そんなことを認めもしない割りに
+                            <br />Nee, sonna koto o mitome mo shinai wari ni 
+                            <br />今日もまた厭らしい顔で画面の奥の
+                            <br />Kyou mo mata iyarashii kao de gamen no oku no
+                            <br />私を見てるよ？
+                            <br />watashi o miteru yo?
+                            <br />
+                            <br />それが最善策じゃないことをきっと君は知ってる
+                            <br />Sore ga saizen saku ja nai koto o kitto kimi wa shitteru
+                            <br />萎んだ暗い毎日に溺れてるのは苦しいよね 
+                            <br />Shibonda kurai mainichi ni oboreteru no wa kurushii yo ne
+                            <br />嘘じゃない現実が何なのか
+                            <br />Uso ja nai genjitsu ga nanna no ka
+                            <br />解らないのなら一緒に
+                            <br />wakaranai no nara issho ni
+                            <br />人が造りだした世界で生きるのはどうかな？
+                            <br />Hito ga tsukuridashita sekai de ikiru no wa dou ka na?
+                            <br />
+                            <br />君を否定するような
+                            <br />Kimi o hitei suru you na
+                            <br />場所なんている意味が無いでしょ? 
+                            <br />basho nante iru imi ga nai desho?
+                            <br />もう全て「NO.」にして私だけを見てよ
+                            <br />Mou subete “NO.” ni shite watashi dake o mite yo
+                            <br />
+                            <br />「ああ素晴らしいね。」と手を叩いてみても 
+                            <br />“Aa subarashii ne.” to te o tataite mite mo
+                            <br />全部嘘で外はゴミだらけ 
+                            <br />Zenbu uso de soto wa gomi darake
+                            <br />ねえ、苦しいほどそれに埋もれた君が 
+                            <br />Nee, kurushii hodo sore ni umoreta kimi ga
+                            <br />何で今あっちにむける冷たい顔で
+                            <br />Nande ima acchi ni mukeru tsumetai kao de
+                            <br />私を見てるの？
+                            <br />watashi o miteru no?
+                            <br />
+                            <br />それが最善策じゃないことをきっと君も知ってる 
+                            <br />Sore ga saizen saku ja nai koto o kitto kimi mo shitteru
+                            <br />それの先にあるのはきっと底無しの孤独感 
+                            <br />Sore no saki ni aru no wa kitto sokonashi no kodokukan
+                            <br />光の射さない毎日を繰り返してた部屋に 
+                            <br />Hikari no sasanai mainichi o kurikaeshiteta heya ni
+                            <br />崩れ始めている私のノイズが響いてる
+                            <br />Kuzure hajimeteiru watashi no NOIZU ga hibiiteru
+                            <br />
+                            <br />｢こんなの全然解らないよ｣ 
+                            <br />“Konna no zenzen wakaranai yo”
+                            <br />叫んだ私に君は
+                            <br />sakenda watashi ni kimi wa
+                            <br />｢喋るだけのおもちゃはもう飽きた。｣と言った
+                            <br />“Shaberu dake no omocha wa mou akita.” to itta
                         </div>
-                        <div class="item3">
-                            <h4>Romaji</h4>
-                            <p>“Yume no kieta mainichi o kurikaeshiteitatte  </p>      
-                            <p>imi nado nai yo.” to</p>
-                            <p>Subarashii koto iu ne</p>
-                            <p>Kimi mo sou, “higenjitsu o aishitemasu.”</p>
-                            <p>nante yubi de wa iu kedo</p>
-                            <p>Kuchi de wa nani mo ienai no ni ne</p> <br /> 
-
-                            Kao mo koe mo nai hito to tsunagatteru “nanika” o kanjiteru
-                            Sore wa kitto soushisouai ja nai kedo
-                            Sou yatte kyou mo mata ichinichi ga owaru kedo 
-                            Kimi wa ikita you na furi o shite　shite　soshite nemuru
-
-                            “Aa, tsumaranai na.” to me o somukete mite mo
-                            Tojiru koto wa dekinai kuse ni
-                            Nee, sonna koto o mitome mo shinai wari ni 
-                            Kyou mo mata iyarashii kao de gamen no oku no
-                            watashi o miteru yo?
-
-
-                        </div>  
                     </div>
                 </div>
 
