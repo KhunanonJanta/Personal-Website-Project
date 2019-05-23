@@ -105,7 +105,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Modal Content */
@@ -228,23 +228,30 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 10px 12px 0 rgba(150, 40, 27, 0.5), 0 6px 20px 0 rgba(150, 40, 27, 0.5);
 }
+/* font */
+h4 {
+  text-decoration: underline;
+}
 
-/* test grid */
+
+
+
+/* grid */
 .item1 {
   grid-area: myArea;
+}
+.item2 ,.item3{
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  line-height: 1;
 }
 
 .grid-container {
   display: grid;
-  grid-template-areas: 	'myArea myArea ''A B';
+  grid-template-areas: 	'myArea myArea ''. .';
   grid-gap: 10px;
   background-color: #343434;
   padding: 10px;
-}
-
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.1);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
 }
