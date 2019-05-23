@@ -84,7 +84,7 @@ body {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 10%;
+  top: 20%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
