@@ -84,7 +84,7 @@ body {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 10%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -170,14 +170,14 @@ img.hover-shadow {
 
 .grid-container {
   display: grid;
-  grid-template-areas: 'myArea myArea . . .';
+  grid-template-areas: 	'myArea myArea ''A B';
   grid-gap: 10px;
-  background-color: #2196F3;
+  background-color: #343434;
   padding: 10px;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.5);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
