@@ -31,7 +31,7 @@ body,html {
   
   .navbar ul.navbar-nav li a:hover,
   .navbar ul.navbar-nav li a:focus {
-    background: rgb(214, 21, 220);
+    background: #7B7C83;
     color: white; /* Color of text */
   }
   
@@ -41,7 +41,7 @@ body,html {
   
   .navbar .navbar-header .navbar-brand:hover,
   .navbar .navbar-header .navbar-brand:focus {
-    background-color: rgb(214, 21, 220); 
+    background-color: #7B7C83; 
     color: white;
   }
   
