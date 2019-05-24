@@ -1,13 +1,14 @@
-body {
-  font-family: Verdana, sans-serif;
-  margin: 0;
-}
 
 * {
   box-sizing: border-box;
 }
 
-/*Header*/
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+/*   Header   */
 .header {
   overflow: hidden;
   background-color: #343434;
@@ -55,25 +56,22 @@ body {
     float: none;
   }
 }
-/*end Header*/
+/*  end Header  */
 
-
+/*  Home  */
 .bg-1 {
-  /*  padding-top: ;*/
   padding-bottom: 50px;
   text-align: center;
   background: url("https://vignette.wikia.nocookie.net/vocaloid/images/7/77/Mekakushitirekoozu.jpg/revision/latest?cb=20130407025317")no-repeat center center fixed;
   background-size: cover;
   height: 840px;
 }
-/* Home */
-  
 .intro-message {
   position: relative;
   padding-top: 20%;
   padding-bottom: 10%;
 }
-/* Welcome Page Big heading */
+/* Big heading */
 .intro-message > h1 {
   margin-top: 50px;
   text-shadow: 2px 1px 2px #000;
@@ -81,7 +79,7 @@ body {
   color: rgb(254, 254, 254);
 }
 
-/*small header*/
+/*small heading*/
 .intro-message > h3 {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
   color: rgb(254, 254, 254);
@@ -114,11 +112,9 @@ body {
   background: #bb0000;
   color: white;
 }
+/*end Social Media Buttons*/
 
-.column {
-  float: left;
-  width: 14%;
-} 
+
 
 /* The Modal (background) */
 .modal {
@@ -171,6 +167,11 @@ body {
   cursor: pointer;
 }
 
+.column {
+  float: left;
+  width: 14%;
+} 
+
 /* Next & previous buttons */
 .prev,
 .next {
@@ -219,18 +220,17 @@ body {
   position: absolute;
   top: 0;
 }
-/*
-img {
-  margin-bottom: -4px;
-}*/
+
 #img_container{
   border: 1px solid grey;
   height: 250px;
 }
+
 #img_container img{
   margin: auto auto;
   display: block;
 }
+
 .caption-container {
   text-align: center;
   background-color: black;
@@ -259,8 +259,6 @@ h4 {
   text-decoration: underline;
   text-align: center;
 }
-
-
 
 /* Flex*/
 .flex-container {
