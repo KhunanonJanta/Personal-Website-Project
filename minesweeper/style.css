@@ -1,6 +1,11 @@
 body {
   font-family: 'Inconsolata', monospace;
   text-align: center;
+  background-color: #7E7D80;
+}
+
+h1 {
+  color: azure;
 }
 
 #board {
