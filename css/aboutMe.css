@@ -14,7 +14,7 @@ body {
 .bg-2 {
     padding-bottom: 50px;
     text-align: center;
-    background: url("https://vignette.wikia.nocookie.net/vocaloid/images/7/77/Mekakushitirekoozu.jpg/revision/latest?cb=20130407025317")no-repeat center center fixed;
+    background: url("https://sv1.picz.in.th/images/2019/05/24/wp0Hgb.jpg")no-repeat center center fixed;
     background-size: cover;
     height: 840px;
   }
@@ -70,12 +70,20 @@ body {
 
 #picMe {
     grid-area: me;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 #txt{
     grid-area: txt;
+    margin-right: 15%;
+    text-align: left;
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+    margin: auto;
 }
 #repo{
     grid-area: l;
+    text-align: center;
 }
 .grid-container2 {
     display: grid;
@@ -86,7 +94,6 @@ body {
     background-color: #343434;
     padding: 10px;
 }
-
 
 /* button go to top */
 .gotopbtn{
